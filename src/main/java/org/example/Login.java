@@ -1,3 +1,5 @@
+package org.example;
+
 public class Login {
     public boolean autenticar(String usuario, String clave, DatosLogin datos){
         String intento = usuario + ";" + clave;
